@@ -7,12 +7,12 @@ Overview
 **Usage**
 
 *Requirements*： <br />
-Python >= 3.7 <br />
-PyTorch >= 1.10 <br />
-torchvision >= 0.11 <br />
-pandas <br />
-scikit-learn <br />
-Pillow <br />
+Python >= 3.7 
+PyTorch >= 1.10 
+torchvision >= 0.11
+pandas 
+scikit-learn 
+Pillow 
 
 It is recommended to use conda or pip to manage your Python environment and install the dependencies.
 
