@@ -6,7 +6,7 @@ Overview
 
 **Usage**
 
-*Requirements* <br />
+*Requirements*： <br />
 Python >= 3.7 <br />
 PyTorch >= 1.10 <br />
 torchvision >= 0.11 <br />
@@ -17,12 +17,12 @@ Pillow <br />
 It is recommended to use conda or pip to manage your Python environment and install the dependencies.
 
 
-1. Data requirements
+**1. Data requirements**
 
 Place merged_output.csv in the same directory as the script
 Or manually modify the CSV_PATH field in the script to specify its location.
 
-2. Prepare the Images
+**2. Prepare the Images**
 
 In merged_output.csv, the image_path column should specify the paths to the images.
 The script will automatically read and convert them to RGB, then apply preprocessing (224×224 resize, normalization, etc.).
