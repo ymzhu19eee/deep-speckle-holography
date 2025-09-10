@@ -6,7 +6,7 @@ Overview
 
 **Usage**
 
-*Requirements*
+*Requirements* <br />
 Python >= 3.7 <br />
 PyTorch >= 1.10 <br />
 torchvision >= 0.11 <br />
