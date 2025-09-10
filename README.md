@@ -6,8 +6,30 @@ Overview
 
 Usage
 
+Requirements
+Python >= 3.7
+PyTorch >= 1.10
+torchvision >= 0.11
+pandas
+scikit-learn
+Pillow
+It is recommended to use conda or pip to manage your Python environment and install the dependencies.
 
-Data requirements
+
+1. Data requirements
+
+Place merged_output.csv in the same directory as the script
+Or manually modify the CSV_PATH field in the script to specify its location.
+
+2. Prepare the Images
+
+In merged_output.csv, the image_path column should specify the paths to the images.
+The script will automatically read and convert them to RGB, then apply preprocessing (224×224 resize, normalization, etc.).
+Run Stage 1 Classification Training
+
+
+After training, two weight files will be generated in the current directory:
+particle_classifier.pt: Encoder model weights
 
 
 License
