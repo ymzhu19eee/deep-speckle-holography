@@ -1,18 +1,19 @@
 **Deep Speckle Holography** <br />
-This is the official code repository for the paper "Unveiling multi-dimensional nanoparticle signatures via deep speckle holography". This project is from the Imaging Systems Lab, Department of Electrical and Electronic Engineering, The University of Hong Kong.
+This is the official code repository for the paper "*Unveiling multi-dimensional nanoparticle signatures via deep speckle holography*". This project is from the Imaging Systems Lab, Department of Electrical and Electronic Engineering, The University of Hong Kong.
 
 Overview
 
 
 **Usage**
 
-Requirements
-Python >= 3.7
-PyTorch >= 1.10
-torchvision >= 0.11
-pandas
-scikit-learn
-Pillow
+*Requirements*
+Python >= 3.7 <br />
+PyTorch >= 1.10 <br />
+torchvision >= 0.11 <br />
+pandas <br />
+scikit-learn <br />
+Pillow <br />
+
 It is recommended to use conda or pip to manage your Python environment and install the dependencies.
 
 
