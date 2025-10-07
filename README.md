@@ -1,5 +1,5 @@
 **Deep Speckle Holography** <br />
-This is the official code repository for the paper "*Unveiling multi-dimensional nanoparticle signatures via deep speckle holography*". This project is from the Imaging Systems Lab, Department of Electrical and Electronic Engineering, The University of Hong Kong.
+This is the official code repository for the paper "*Unveiling multi-dimensional nanoparticle signatures via deep speckle holography*". This project is from the Imaging Systems Lab, Department of Electrical and Electronic Engineering, The University of Hong Kong, and the Tadesse Lab, Department of Mechanical Engineering, Massachusetts Institute of Technology.
 
 Overview
 
