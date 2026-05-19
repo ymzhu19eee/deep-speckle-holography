@@ -1,6 +1,6 @@
 **Deep Speckle Holography** <br />
-This is the official code repository for the paper "*Deep Speckle Holography: A Generative AI-Driven Speckle Holographic Platform for Accurate Non-destructive Nanoparticle
-Characterization*". This project is from the [Imaging Systems Lab](https://isl.eee.hku.hk/), Department of Electrical and Computer Engineering, The University of Hong Kong, and the [Tadesse Lab](https://tadesselab.mit.edu/), Department of Mechanical Engineering, Massachusetts Institute of Technology.
+This is the official code repository for the paper "*In Situ Single-particle Phenotyping in Complex Fluids via
+Physics-informed Deep Speckle Holography*". This project is from the [Imaging Systems Lab](https://isl.eee.hku.hk/), Department of Electrical and Computer Engineering, The University of Hong Kong, and the [Tadesse Lab](https://tadesselab.mit.edu/), Department of Mechanical Engineering, Massachusetts Institute of Technology.
 
 Overview
 
