@@ -49,7 +49,7 @@ conda activate speckle_holo
 # 3. Install dependencies
 pip install torch==1.10.0 torchvision==0.11.1 pandas scikit-learn Pillow
 
-**Usage**
+## Usage
 
 *Requirements*： <br />
 Python >= 3.7 
