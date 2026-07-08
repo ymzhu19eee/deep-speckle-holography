@@ -67,7 +67,7 @@ python train.py --csv_path demo_data/merged_output.csv
 
 ---
 
-## 4. Instructions for Use (Usage)
+## 4. Instructions for Use
 
 To run the software on your own data, please follow the steps below:
 
@@ -86,10 +86,10 @@ python train.py
 
 After training, two weight files will be generated in the current directory:
 - `particle_classifier.pt`: Encoder model weights
-- *[Please specify the second file name here]*: *[Description of the second file]*
+- `classifier_head.pt`
 
 ### 4.4 Reproduction Instructions
-To reproduce all the quantitative results in the manuscript, please download the full dataset from *[Link to your full dataset, e.g., Zenodo/Figshare]* and run the training scripts using the default hyperparameters as configured in this repository.
+To reproduce all the quantitative results in the manuscript, please download the full dataset from the Supplemental data of the paper and run the training scripts using the default hyperparameters as configured in this repository.
 
 ---
 
@@ -97,15 +97,6 @@ To reproduce all the quantitative results in the manuscript, please download the
 This project is available under the [MIT License](LICENSE).
 
 ## Reference
-If you use this code, please provide a citation of our paper:
-
-```bibtex
-@article{lam_tadesse_zhu_202X,
-  title={Label-free Single-Nanoparticle Deep Speckle Holography},
-  author={Zhu, Yanmin and Tadesse, Loza F. and Lam, Edmund Y. and others},
-  journal={Nature [Specific Journal]},
-  year={202X}
-}
-```
+If you use this code, please provide a citation of our paper.
 
 [image_0]: https://pfst.cf2.poecdn.net/base/image/0f22612a092cd1947cd99e9a61a24fc5c955c4a2986d89bc0991dfcd0a8d42f2?pmaid=635822161
