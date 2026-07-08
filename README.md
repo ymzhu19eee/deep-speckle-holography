@@ -53,7 +53,7 @@ pip install torch==1.10.0 torchvision==0.11.1 pandas scikit-learn Pillow
 
 ## 3. Demo
 
-To verify the installation, you can run a quick demonstration using the provided sample data.
+To verify the installation, you can run a quick demonstration using the provided sample data with `https://drive.google.com/drive/folders/1QmjhYn_9KDOeBymzpkbAwQJEkM0H3L0L?usp=sharing`.
 
 **Instructions:**
 
