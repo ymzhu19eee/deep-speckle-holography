@@ -81,3 +81,53 @@ This project is available under the [MIT License](LICENSE).
 
 ## Reference
 If you use this code, please provide a citation of our paper.
+
+3. Demo
+To verify the installation, you can run a quick demonstration using the provided sample data.
+
+Instructions:
+
+bash
+python train.py --csv_path demo_data/merged_output.csv
+
+(Note: Please replace train.py and demo_data/ with your actual script and demo folder names if different).
+
+Expected Output: The script will output training loss logs in the terminal. After completion, particle_classifier.pt will be generated in the current directory.
+Expected Run Time: Approximately 5 minutes on a modern GPU.
+
+4. Instructions for Use (Usage)
+To run the software on your own data, please follow the steps below:
+
+4.1 Data Requirements
+Place merged_output.csv in the same directory as the script. Alternatively, you can manually modify the CSV_PATH field in the script to specify its location.
+
+4.2 Prepare the Images
+In merged_output.csv, the image_path column should specify the paths to the images. The script will automatically read and convert them to RGB, then apply preprocessing (224×224 resize, normalization, etc.).
+
+4.3 Run Stage 1 Classification Training
+Execute the training script:
+
+bash
+python train.py
+
+After training, two weight files will be generated in the current directory:
+
+particle_classifier.pt: Encoder model weights
+[Please specify the second file name here]: [Description of the second file]
+4.4 Reproduction Instructions
+To reproduce all the quantitative results in the manuscript, please download the full dataset from [Link to your full dataset, e.g., Zenodo/Figshare] and run the training scripts using the default hyperparameters as configured in this repository.
+
+License
+This project is available under the MIT License.
+
+Reference
+If you use this code, please provide a citation of our paper:
+
+bibtex
+@article{lam_tadesse_zhu_202X,
+  title={Label-free Single-Nanoparticle Deep Speckle Holography},
+  author={Zhu, Yanmin and Tadesse, Loza F. and Lam, Edmund Y. and others},
+  journal={Nature [Specific Journal]},
+  year={202X}
+}
+
